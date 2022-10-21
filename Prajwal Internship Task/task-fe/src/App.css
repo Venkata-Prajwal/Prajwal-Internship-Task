@@ -1,0 +1,137 @@
+.container{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to right bottom,#2a1232,#7c2535,#434776,#8f9cce);
+    min-width: 400px;
+}
+.row{
+    padding-top:200px;
+    min-width: 400px;
+    box-sizing: border-box;
+   
+}
+.loginform{
+    border: 1px solid black;
+    height: 400px;
+    background: linear-gradient(to right bottom,#4a2652,#70283e,#747cc5);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 6px;
+   
+    
+}
+ h1{
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    color:#ffffff;
+    font-family: 'DM Serif Display', serif;
+}
+
+.loginform .login-input{
+    /* position:absolute; */
+    margin: auto;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.loginform button{
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background:linear-gradient(to right ,#2a1232,#7c2535,#434776,#8f9cce);
+    border-radius: 20px;
+}
+.loginform p{
+    margin-top: 30px;
+    margin-left: 36%;
+    font-size: 18px;
+    color:aliceblue;
+    margin-bottom: 10px;
+
+}
+.login-forgot{
+    margin-left: 60%;
+    margin-bottom: 15px;
+    text-decoration:none;
+    font-family: 'Dancing Script', cursive;
+   
+    font-size: medium;
+}
+.login-link{
+    margin-left: 41%;
+    text-decoration:none;
+    font-size:120%;
+    font-family: 'DM Serif Display', serif;
+   
+}
+/* register page styling */
+
+.registerform{
+    border: 1px solid black;
+    height: 500px;
+    background: linear-gradient(to right bottom,#4a2652,#70283e,#747cc5);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 6px;
+   
+}
+
+.registerform .register-input{
+    margin: auto;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.registerform button{
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background:linear-gradient(to right ,#2a1232,#7c2535,#434776,#8f9cce);
+    border-radius: 20px;
+}
+/* profile page styling */
+
+.profileform{
+    border: 1px solid black;
+    height: 500px;
+    background: linear-gradient(to right bottom,#4a2652,#70283e,#747cc5);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 6px;
+   
+}
+
+.profileform .profile-input{
+    margin: auto;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.profileform button{
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background:linear-gradient(to right ,#2a1232,#7c2535,#434776,#8f9cce);
+    border-radius: 20px;
+}
+span{
+    margin-left: 50%;
+    font-weight: bold;
+    
+}
+.material-symbols-outlined{
+
+    cursor: pointer;
+}
